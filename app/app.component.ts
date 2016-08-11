@@ -6,7 +6,7 @@ import { Component } from 'angular2/core';
     <div class="container">
       <h1>To-Do List</h1>
       <h3 *ngFor="#task of tasks" (click)="taskWasSelected(task)">{{ task.description }}</h3>
-    </h1>
+    </div>
   `
 })
 
